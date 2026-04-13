@@ -1,6 +1,4 @@
-# 🚀 Ronak Sain - Futuristic Portfolio Website
-
-A stunning, modern portfolio website featuring futuristic design, glassmorphism effects, and smooth animations built with React and Vite.
+# Portfolio Website
 
 ## 🌟 Live Demo
 
@@ -45,48 +43,22 @@ A stunning, modern portfolio website featuring futuristic design, glassmorphism 
 webapp/
 ├── src/
 │   ├── components/
-│   │   ├── AnimatedBackground.jsx    # Floating tech icons and particles
-│   │   ├── Navbar.jsx               # Navigation with smooth scroll
-│   │   ├── Hero.jsx                 # Landing section with typing animation
-│   │   ├── About.jsx                # Profile and highlights
-│   │   ├── Skills.jsx               # Interactive skills grid
-│   │   ├── Projects.jsx             # Project showcase with filters
-│   │   ├── Experience.jsx           # Timeline with glassmorphism
-│   │   └── Contact.jsx              # Contact form and social links
-│   ├── App.jsx                      # Main application component
-│   ├── App.css                      # Application styles
-│   ├── index.css                    # Global styles and glassmorphism
-│   └── main.jsx                     # Application entry point
-├── public/                          # Static assets
-├── dist/                            # Built production files
-├── package.json                     # Dependencies and scripts
-└── README.md                        # This file
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd webapp
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+│   │   ├── AnimatedBackground.jsx    
+│   │   ├── Navbar.jsx               
+│   │   ├── Hero.jsx                 
+│   │   ├── About.jsx                
+│   │   ├── Skills.jsx               
+│   │   ├── Projects.jsx             
+│   │   ├── Experience.jsx           
+│   │   └── Contact.jsx              
+│   ├── App.jsx                      
+│   ├── App.css                      
+│   ├── index.css                    
+│   └── main.jsx                     
+├── public/                          
+├── dist/                            
+├── package.json                     
+└── README.md                        
 ```
 
 ## 📊 Current Functional Entry Points
@@ -171,71 +143,9 @@ The portfolio uses CSS custom properties for easy theming:
 }
 ```
 
-### Content Updates
-- **Personal Info**: Update contact details in `Contact.jsx`
-- **Skills**: Modify skill categories and levels in `Skills.jsx`
-- **Projects**: Add/edit projects array in `Projects.jsx`  
-- **Experience**: Update timeline data in `Experience.jsx`
-
-## 🚧 Future Enhancements
-
-### Features Not Yet Implemented
-- **Backend Integration** for contact form functionality
-- **Blog Section** with technical articles and tutorials
-- **Dark/Light Theme Toggle** with smooth transitions
-- **Multi-language Support** (English/Hindi)
-- **Advanced Animations** with scroll-triggered effects
-- **Performance Analytics** with visitor tracking
-- **SEO Optimization** with meta tags and structured data
-- **PWA Features** for offline functionality
-
-### Recommended Next Steps
-1. **Deploy to Production** - Set up Vercel/Netlify deployment
-2. **Add Backend** - Implement contact form with email service
-3. **Content Management** - Add CMS for easy content updates
-4. **Performance Optimization** - Implement lazy loading and code splitting
-5. **SEO Enhancement** - Add meta tags, OpenGraph, and structured data
-6. **Analytics Integration** - Add Google Analytics or similar tracking
-7. **Blog Integration** - Add markdown-based blog functionality
-8. **Testing Suite** - Implement unit and integration tests
-
-## 🌐 Deployment
-
-### Deployment Status
-- **Platform**: Currently running in development mode
-- **Status**: ✅ Active and accessible  
-- **Performance**: Optimized for fast loading and smooth animations
-- **Compatibility**: Tested on modern browsers (Chrome, Firefox, Safari, Edge)
-
-### Production Deployment
-Ready for deployment to:
-- **Vercel** (Recommended for React projects)
-- **Netlify** (Great for static sites)
-- **GitHub Pages** (Free hosting option)
-- **AWS S3/CloudFront** (Enterprise solution)
-
-## 📈 Performance
-
-- **Build Size**: ~405KB JavaScript, ~10KB CSS (gzipped: ~130KB + ~2.6KB)
-- **Load Time**: < 2 seconds on fast connections
-- **Animations**: 60 FPS smooth animations using Framer Motion
-- **Responsive**: Optimized for all device sizes (320px+)
-- **Accessibility**: Keyboard navigation and screen reader friendly
-
 ## 🤝 Contact Information
 
-- **Email**: ronaksain0408@gmail.com
-- **Phone**: +91 8595872543  
-- **LinkedIn**: [linkedin.com/in/ronak](https://linkedin.com/in/ronak)
-- **GitHub**: [github.com/ronaksain](https://github.com/ronaksain)
+- **Email**: ronaksain0408@gmail.com 
+- **LinkedIn**: [linkedin.com/in/ronak](www.linkedin.com/in/ronak-sain-633960255)
+- **GitHub**: [github.com/ronaksain](https://github.com/ronak0408)
 - **Portfolio**: [Live Demo](https://3000-iskr4jyzd9c23peto6v6v-6532622b.e2b.dev)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-**Last Updated**: October 3, 2025  
-**Version**: 1.0.0  
-**Built with**: ❤️ React + Vite + Framer Motion
