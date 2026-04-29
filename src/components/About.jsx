@@ -47,13 +47,13 @@ const About = () => {
     {
       icon: FaGraduationCap,
       title: "Academic Excellence",
-      description: "Electronics & Computer Engineering student with strong academic performance (82.4% in Secondary, 77.3% in Senior Secondary)",
+      description: "Final-year Electronics & Computer Science engineering student with a strong academic performance (7.5/10 CGPA).",
       color: "var(--neon-cyan)"
     },
     {
       icon: FaCode,
       title: "Full Stack Developer",
-      description: "Proficient in multiple programming languages including Python, Java, JavaScript, with experience in React and modern frameworks",
+      description: "Proficient in Python, Java, and JavaScript, with hands-on experience building scalable applications using React.js and Node.js.",
       color: "var(--neon-purple)"
     },
     {
@@ -65,7 +65,7 @@ const About = () => {
     {
       icon: FaRocket,
       title: "Industry Experience",
-      description: "Completed internship at Airports Authority of India (AAI), gaining hands-on experience in IT management and government systems",
+      description: "Gained hands-on experience in full-stack development, Agile workflows, and government IT systems through internships at Vedantra AI and AAI.",
       color: "var(--neon-green)"
     }
   ]
@@ -139,7 +139,7 @@ const About = () => {
                 textAlign: 'center',
                 marginBottom: '1.5rem'
               }}>
-                Electronics & Computer Engineering Student
+                B.Tech, Computer & Electronics Engineering
               </p>
               
               <div style={{
@@ -188,8 +188,9 @@ const About = () => {
                 lineHeight: '1.8',
                 marginBottom: '1.5rem'
               }}>
-                I'm currently pursuing Electronics & Computer Engineering at Dronacharya College of Engineering, 
-                where I've built a strong foundation in both hardware and software technologies.
+                I'm a final-year B.Tech student pursuing Computer and Electronics Engineering (Computer Science) at 
+                Dronacharya College of Engineering, where I've built a strong foundation in scalable system design
+                and software architecture.
               </p>
               
               <p style={{
@@ -197,17 +198,19 @@ const About = () => {
                 lineHeight: '1.8',
                 marginBottom: '1.5rem'
               }}>
-                My passion lies in creating innovative solutions through code. I've gained practical experience 
-                during my internship at Airports Authority of India (AAI), where I worked on IT management 
-                and government e-marketplace systems.
+                My passion lies in creating innovative solutions through code. I gained valuable enterprise
+                experience during my internship at the Airports Authority of India (AAI), analyzing digital
+                procurement workflows. More recently, as a Software Developer Intern at Vedantra AI, I engineered
+                full-stack web applications, optimized performance via REST API integrations, and implemented
+                robust CI/CD workflows within an Agile environment.
               </p>
               
               <p style={{
                 color: 'var(--text-secondary)',
                 lineHeight: '1.8'
               }}>
-                I'm always eager to learn new technologies and contribute to meaningful projects that 
-                make a difference in the digital world.
+                I am actively seeking a Software Development Engineer (SDE) role where I can leverage my skills
+                to contribute to high-impact engineering teams.
               </p>
             </motion.div>
           </div>
