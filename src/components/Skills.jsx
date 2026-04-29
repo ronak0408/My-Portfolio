@@ -10,7 +10,12 @@ import {
   FaPython, 
   FaDatabase,
   FaLinux,
-  FaGithub
+  FaGithub,
+  FaCode, 
+  FaServer, 
+  FaBrain, 
+  FaInfinity, 
+  FaSync
 } from 'react-icons/fa'
 import { 
   SiTailwindcss,
@@ -24,7 +29,10 @@ import {
   SiDocker,
   SiAmazon,
   SiVercel,
-  SiNetlify
+  SiNetlify,
+  SiSpring,
+  SiVisualstudiocode,
+  SiPostman
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -42,8 +50,9 @@ const Skills = () => {
       skills: [
         { name: 'Python', icon: FaPython, level: 85, color: '#3776AB' },
         { name: 'Java', icon: FaJava, level: 80, color: '#ED8B00' },
+        { name: 'C', icon: FaCode, level: 70, color: '#A8B9CC' }, 
         { name: 'JavaScript', icon: FaJs, level: 85, color: '#F7DF1E' },
-        { name: 'TypeScript', icon: SiTypescript, level: 70, color: '#3178C6' },
+        { name: 'SQL', icon: FaDatabase, level: 80, color: '#4479A1' },
         { name: 'HTML5', icon: FaHtml5, level: 90, color: '#E34F26' },
         { name: 'CSS3', icon: FaCss3Alt, level: 85, color: '#1572B6' }
       ]
@@ -52,10 +61,11 @@ const Skills = () => {
       title: 'Frameworks & Libraries',
       color: 'var(--neon-purple)',
       skills: [
-        { name: 'React', icon: FaReact, level: 85, color: '#61DAFB' },
+        { name: 'React.js', icon: FaReact, level: 85, color: '#61DAFB' },
         { name: 'Node.js', icon: SiNodedotjs, level: 75, color: '#339933' },
-        { name: 'Express.js', icon: SiExpress, level: 70, color: '#000000' },
-        { name: 'Tailwind CSS', icon: SiTailwindcss, level: 85, color: '#06B6D4' }
+        { name: 'Spring', icon: SiSpring, level: 70, color: '#6DB33F' },
+        { name: 'REST APIs', icon: FaServer, level: 80, color: '#FF4500' },
+        { name: 'Gen AI', icon: FaBrain, level: 65, color: '#8A2BE2' }
       ]
     },
     databases: {
@@ -64,8 +74,7 @@ const Skills = () => {
       skills: [
         { name: 'MySQL', icon: SiMysql, level: 80, color: '#4479A1' },
         { name: 'MongoDB', icon: SiMongodb, level: 70, color: '#47A248' },
-        { name: 'PostgreSQL', icon: SiPostgresql, level: 65, color: '#336791' },
-        { name: 'Redis', icon: SiRedis, level: 60, color: '#DC382D' }
+        { name: 'PostgreSQL', icon: SiPostgresql, level: 65, color: '#336791' }
       ]
     },
     tools: {
@@ -73,11 +82,10 @@ const Skills = () => {
       color: 'var(--neon-green)',
       skills: [
         { name: 'Git & GitHub', icon: FaGithub, level: 85, color: '#181717' },
-        { name: 'Linux', icon: FaLinux, level: 75, color: '#FCC624' },
-        { name: 'Docker', icon: SiDocker, level: 65, color: '#2496ED' },
-        { name: 'AWS', icon: SiAmazon, level: 60, color: '#FF9900' },
-        { name: 'Vercel', icon: SiVercel, level: 80, color: '#000000' },
-        { name: 'Netlify', icon: SiNetlify, level: 75, color: '#00C7B7' }
+        { name: 'VS Code', icon: SiVisualstudiocode, level: 90, color: '#007ACC' },
+        { name: 'Postman', icon: SiPostman, level: 80, color: '#FF6C37' },
+        { name: 'CI/CD', icon: FaInfinity, level: 75, color: '#4285F4' },
+        { name: 'Agile', icon: FaSync, level: 80, color: '#0052CC' }
       ]
     }
   }
@@ -350,10 +358,14 @@ const Skills = () => {
               marginTop: '2rem'
             }}>
               {[
-                'Computer Networks',
-                'Operating Systems',
                 'Data Structures & Algorithms',
-                'Database Management Systems',
+                'Automata Theory',
+                'Database Management',
+                'Object-Oriented Programming',
+                'Compiler Design',
+                'Operating Systems',
+                'Computer Networks',
+                'Computer Architecture',
                 'Web Development',
                 'Software Engineering'
               ].map((course, index) => (
