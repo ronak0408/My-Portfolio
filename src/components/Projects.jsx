@@ -9,7 +9,10 @@ import {
   FaPython, 
   FaDatabase,
   FaCode,
-  FaRocket
+  FaRocket,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs
 } from 'react-icons/fa'
 import { 
   SiTailwindcss, 
@@ -17,7 +20,9 @@ import {
   SiExpress, 
   SiNodedotjs,
   SiMongodb,
-  SiTypescript
+  SiTypescript,
+  SiScikitlearn,
+  SiFlask
 } from 'react-icons/si'
 
 const Projects = () => {
@@ -31,24 +36,55 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce web application with user authentication, shopping cart, payment integration, and admin panel. Built with modern technologies for optimal performance.",
-      longDescription: "Complete e-commerce solution featuring user registration/login, product catalog with search and filtering, shopping cart functionality, secure payment processing, order management, and comprehensive admin dashboard for inventory and user management.",
+      title: "Email/SMS Spam Classifier",
+      description: "A machine learning spam detection system achieving 95% accuracy using an NLP pipeline with tokenization, stopword removal, and TF-IDF feature extraction.",
+      longDescription: "Built a machine learning spam detection system achieving 95% accuracy using an NLP pipeline with tokenization, stopword removal, and TF-IDF feature extraction. Trained and benchmarked Naive Bayes, SVM, Random Forest, and Logistic Regression models; tuned hyperparameters via GridSearchCV improving performance by 25%.",
+      technologies: [
+        { name: 'Python', icon: FaPython, color: '#3776AB' },
+        { name: 'Scikit-learn', icon: SiScikitlearn, color: '#F7931E' }, 
+        { name: 'Flask', icon: SiFlask, color: '#000000' }
+      ],
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=300&fit=crop",
+      github: "https://github.com/ronak0408/Spam-Classfier-Project",
+      demo: "", 
+      status: "Completed",
+      category: "Machine Learning"
+    },
+    {
+      id: 2,
+      title: "YogaNest",
+      description: "A full stack wellness platform with 10+ guided yoga modules and personalized AI-based recommendations.",
+      longDescription: "Developed a full stack wellness platform with 10+ guided yoga modules and personalized AI-based recommendations. Built a responsive cross-device UI using React.js, improving user engagement by 25% and reducing load time by 15-20% via frontend optimizations. Integrated an AI-based posture tracking module enhancing recommendation accuracy by 30%; ensured mobile-first compatibility across all device types.",
       technologies: [
         { name: 'React', icon: FaReact, color: '#61DAFB' },
-        { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
-        { name: 'Express', icon: SiExpress, color: '#000000' },
-        { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
-        { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' }
+        { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
+        { name: 'HTML', icon: FaHtml5, color: '#E34F26' }, 
+        { name: 'CSS', icon: FaCss3Alt, color: '#1572B6' } 
       ],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      github: "https://github.com/ronaksain/ecommerce-platform",
-      demo: "https://ecommerce-demo.vercel.app",
+      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=300&fit=crop",
+      github: "https://github.com/ronak0408/yoganest",
+      demo: "", 
       status: "Completed",
       category: "Full Stack"
     },
     {
-      id: 2,
+      id: 3,
+      title: "DhamMahima",
+      description: "A full stack spiritual platform using React.js frontend and Node.js REST API backend, following MVC architecture.",
+      longDescription: "Engineered a full stack spiritual platform using React.js frontend and Node.js REST API backend, following MVC architecture. Designed and managed a relational SQL database, optimizing queries to improve API response time by 20%; built responsive UI across 3+ device types. Structured scalable backend architecture supporting 100+ content entries with minimal performance degradation.",
+      technologies: [
+        { name: 'React', icon: FaReact, color: '#61DAFB' },
+        { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
+        { name: 'SQL', icon: FaDatabase, color: '#4479A1' }
+      ],
+      image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=500&h=300&fit=crop",
+      github: "https://github.com/ronak0408/dhammahima",
+      demo: "", 
+      status: "Completed",
+      category: "Full Stack"
+    },
+    {
+      id: 4,
       title: "Task Management System",
       description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking capabilities.",
       longDescription: "Comprehensive project management tool featuring task creation and assignment, team collaboration, real-time notifications, progress tracking, file sharing, and deadline management with interactive dashboards.",
@@ -59,13 +95,13 @@ const Projects = () => {
         { name: 'MySQL', icon: SiMysql, color: '#4479A1' }
       ],
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      github: "https://github.com/ronaksain/task-manager",
+      github: "https://github.com/ronak0408/task-manager",
       demo: "https://task-manager-demo.vercel.app",
       status: "In Development",
       category: "Web Application"
     },
     {
-      id: 3,
+      id: 5,
       title: "Weather Analytics Dashboard",
       description: "A data visualization dashboard that displays weather analytics with interactive charts, forecasting, and location-based weather tracking.",
       longDescription: "Advanced weather analytics platform featuring real-time weather data, interactive charts and graphs, 7-day forecasting, location-based tracking, historical data analysis, and customizable dashboard widgets.",
@@ -75,13 +111,13 @@ const Projects = () => {
         { name: 'Database', icon: FaDatabase, color: '#336791' }
       ],
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-      github: "https://github.com/ronaksain/weather-dashboard",
+      github: "https://github.com/ronak0408/weather-dashboard",
       demo: "https://weather-dashboard-demo.vercel.app",
       status: "Completed",
       category: "Data Visualization"
     },
     {
-      id: 4,
+      id: 6,
       title: "Smart Attendance System",
       description: "IoT-based attendance management system using facial recognition technology for automated attendance tracking in educational institutions.",
       longDescription: "Intelligent attendance system combining facial recognition AI, IoT sensors, and web dashboard for automated student attendance tracking, reporting, and analytics with real-time notifications to parents and administrators.",
@@ -91,13 +127,13 @@ const Projects = () => {
         { name: 'MySQL', icon: SiMysql, color: '#4479A1' }
       ],
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop",
-      github: "https://github.com/ronaksain/smart-attendance",
+      github: "https://github.com/ronak0408/smart-attendance",
       demo: null,
       status: "Prototype",
       category: "IoT & AI"
     },
     {
-      id: 5,
+      id: 7,
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website with futuristic design, smooth animations, and glassmorphism effects to showcase projects and skills.",
       longDescription: "Personal portfolio website featuring futuristic design aesthetics, smooth animations, glassmorphism UI elements, responsive design, interactive components, and optimized performance for showcasing professional work.",
@@ -106,13 +142,13 @@ const Projects = () => {
         { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' }
       ],
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      github: "https://github.com/ronaksain/portfolio",
-      demo: "https://ronaksain.vercel.app",
+      github: "https://github.com/ronak0408/My-Portfolio",
+      demo: "https://my-portfolio-opal-beta-44.vercel.app/",
       status: "Completed",
       category: "Frontend"
     },
     {
-      id: 6,
+      id: 8,
       title: "Government e-Marketplace Study",
       description: "Comprehensive research and analysis project on Government e-Marketplace (GeM) portal, completed during AAI internship.",
       longDescription: "Detailed study of India's Government e-Marketplace platform, analyzing procurement processes, vendor registration, order management, and digital transformation in government purchasing with recommendations for optimization.",
@@ -498,7 +534,7 @@ const Projects = () => {
             }}
           >
             <motion.a
-              href="https://github.com/ronaksain"
+              href="https://github.com/ronak0408"
               target="_blank"
               rel="noopener noreferrer"
               className="neon-button"
