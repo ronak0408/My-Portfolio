@@ -77,7 +77,7 @@ const Projects = () => {
         { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
         { name: 'SQL', icon: FaDatabase, color: '#4479A1' }
       ],
-      image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=500&h=300&fit=crop",
+      image: "https://as1.ftcdn.net/v2/jpg/01/95/17/16/1000_F_195171631_fLdxDjxw76CgcNYHdXOR3NO3NzvMROMx.jpg",
       github: "https://github.com/ronak0408/dhammahima",
       demo: "", 
       status: "Completed",
