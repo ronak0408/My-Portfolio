@@ -56,7 +56,7 @@ const Contact = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a')
-    link.href = 'https://drive.google.com/file/d/1qSiRb3c3cD88qXXOiovwFlLR_aBuciAX/view?usp=drive_link'
+    link.href = 'https://drive.google.com/file/d/1vwxv7zYIyAWRrx_J7xh2G6gnF-wsGW1B/view?usp=drive_link'
     link.download = 'ReSuMe-RoNaK.pdf'
     link.target = '_blank'
     document.body.appendChild(link)
