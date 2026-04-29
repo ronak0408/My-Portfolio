@@ -56,8 +56,8 @@ const Contact = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a')
-    link.href = 'https://page.gensparksite.com/get_upload_url/8a57f7fc29ee1892f35bb1409ef04fe3091acff69f5afc87a3f2df76ddf80a8a/default/708e368c-07f1-4b09-9fcc-f66a56f8e23d'
-    link.download = 'Ronak_Sain_Resume.pdf'
+    link.href = 'https://drive.google.com/file/d/1qSiRb3c3cD88qXXOiovwFlLR_aBuciAX/view?usp=drive_link'
+    link.download = 'ReSuMe-RoNaK.pdf'
     link.target = '_blank'
     document.body.appendChild(link)
     link.click()
@@ -83,14 +83,14 @@ const Contact = () => {
       icon: FaLinkedin,
       label: 'LinkedIn',
       value: 'linkedin.com/in/ronak',
-      href: 'https://linkedin.com/in/ronak',
+      href: 'https://www.linkedin.com/in/ronak-sain-633960255/',
       color: '#0077B5'
     },
     {
       icon: FaGithub,
       label: 'GitHub',
       value: 'github.com/ronaksain',
-      href: 'https://github.com/ronaksain',
+      href: 'https://github.com/ronak0408',
       color: '#333333'
     },
     {
