@@ -12,54 +12,54 @@ const Experience = () => {
     {
       id: 1,
       type: 'experience',
+      title: 'Software Developer Intern - Vedantra AI (OPC) Private Limited',
+      company: 'Vedantra AI (OPC) Private Limited',
+      location: 'Gurugram, Haryana',
+      period: 'June 2025 - January 2026',
+      description: 'Engineered full stack web applications and optimized performance through REST API integrations and efficient data handling within an Agile team environment.',
+      achievements: [
+        'Engineered 3+ full stack web applications using React.js and Node.js, improving performance via REST API integrations and component-level optimizations.',
+        'Collaborated in an Agile team of 4 developers to debug and optimize applications, reducing load time by 20% through code profiling and asynchronous data handling.',
+        'Implemented Git-based CI/CD workflows, improving version control efficiency and reducing merge conflicts by 30%.',
+        'Delivered 2+ production-ready solutions meeting all client requirements.'
+      ],
+      skills: ['React.js', 'Node.js', 'REST APIs', 'Agile Methodologies', 'CI/CD', 'Git', 'Performance Optimization'],
+      icon: FaBriefcase,
+      color: 'var(--neon-purple)'
+    },
+    {
+      id: 2,
+      type: 'experience',
       title: 'Internship - Airports Authority of India (AAI)',
       company: 'Airports Authority of India',
-      location: 'India',
+      location: 'New Delhi',
       period: 'June 2024 - July 2024',
       description: 'Conducted a detailed study on GEM (Government e-Marketplace) and prepared a comprehensive report. Gained hands-on experience in managing IT needs in an organization.',
       achievements: [
-        'Prepared comprehensive report on Government e-Marketplace (GEM)',
-        'Gained practical experience in IT management within government organizations',
-        'Successfully completed internship project and received certification',
-        'Analyzed digital procurement processes and workflow optimization'
+        'Analyzed Government e-Marketplace (GeM) procurement workflows and documented findings in a 20+ page technical report covering system architecture, process efficiency, and optimization opportunities.',
+        'Studied enterprise-level IT infrastructure supporting 1000+ users.',
+        'Gained exposure to large-scale distributed systems and digital procurement operations.',
+        'Successfully completed internship project and received certification.'
       ],
-      skills: ['Government Systems', 'IT Management', 'Research & Analysis', 'Report Writing'],
+      skills: ['Government Systems', 'IT Infrastructure', 'Research & Analysis', 'Technical Report Writing'],
       icon: FaBriefcase,
       color: 'var(--neon-cyan)'
     },
     {
-      id: 2,
-      type: 'education',
-      title: 'Electronics and Computer Engineering',
-      company: 'Dronacharya College of Engineering',
-      location: 'India',
-      period: '2022 - Present',
-      description: 'Currently pursuing Bachelor of Technology in Electronics and Computer Engineering with focus on software development, computer networks, and system design.',
-      achievements: [
-        'Strong foundation in Data Structures and Algorithms',
-        'Comprehensive understanding of Computer Networks',
-        'Proficient in Operating Systems concepts',
-        'Hands-on experience with multiple programming languages'
-      ],
-      skills: ['Programming', 'Computer Networks', 'Data Structures', 'Operating Systems', 'Database Management'],
-      icon: FaGraduationCap,
-      color: 'var(--neon-purple)'
-    },
-    {
       id: 3,
       type: 'education',
-      title: 'Senior Secondary Education',
-      company: 'Kamal Model Sr Sec School',
-      location: 'India',
-      period: '2019 - 2021',
-      description: 'Completed senior secondary education with excellent academic performance in Science stream.',
+      title: 'B.Tech, Computer and Electronics Engineering (Computer Science)',
+      company: 'Dronacharya College of Engineering',
+      location: 'Gurugram, Haryana',
+      period: '2022 - 2026',
+      description: 'Pursuing a Bachelor of Technology with a strong focus on core computer science methodologies, system design, and software engineering.',
       achievements: [
-        'Secondary Education: 82.4%',
-        'Senior Secondary Education: 77.3%',
-        'Strong foundation in Mathematics and Science',
-        'Active participation in technical competitions'
+        'Current CGPA: 7.5/10',
+        'Core Coursework: Data Structures & Algorithms, Automata Theory, Database Management',
+        'Core Coursework: Object-Oriented Programming, Compiler Design, Operating Systems',
+        'Core Coursework: Computer Networks, Computer Architecture'
       ],
-      skills: ['Mathematics', 'Physics', 'Chemistry', 'Computer Science'],
+      skills: ['Data Structures & Algorithms', 'Computer Networks', 'Operating Systems', 'Database Management', 'OOP'],
       icon: FaGraduationCap,
       color: 'var(--neon-green)'
     }
@@ -67,22 +67,22 @@ const Experience = () => {
 
   const certifications = [
     {
+      title: 'Software Developer Internship Certificate',
+      issuer: 'Vedantra AI (OPC) Private Limited',
+      date: '2026',
+      description: 'Successfully completed software development internship, engineering full stack web applications and implementing Git-based CI/CD workflows.'
+    },
+    {
+      title: 'Hackathon KRMU 3.0 - Semi-Finalist',
+      issuer: 'Hackathon KRMU 3.0',
+      date: 'March 2024',
+      description: 'Advanced to semi-finals among 200+ teams by leading frontend development and UI/UX design for the YogaNest wellness platform.'
+    },
+    {
       title: 'AAI Internship Certificate',
       issuer: 'Airports Authority of India',
-      date: '2024',
-      description: 'Successfully completed internship project on Government e-Marketplace study'
-    },
-    {
-      title: 'Web Development Bootcamp',
-      issuer: 'Online Learning Platform',
-      date: '2023',
-      description: 'Comprehensive course covering full-stack web development'
-    },
-    {
-      title: 'Java Programming Certificate',
-      issuer: 'Programming Institute',
-      date: '2023',
-      description: 'Advanced Java programming concepts and object-oriented design'
+      date: 'July 2024',
+      description: 'Successfully completed internship project analyzing Government e-Marketplace procurement workflows and IT infrastructure.'
     }
   ]
 
@@ -319,7 +319,7 @@ const Experience = () => {
                       fontSize: '1rem',
                       fontWeight: '600'
                     }}>
-                      Key Achievements:
+                      Key Highlights:
                     </h5>
                     <ul style={{
                       listStyle: 'none',
