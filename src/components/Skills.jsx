@@ -15,7 +15,7 @@ import {
   FaServer, 
   FaBrain, 
   FaInfinity, 
-  FaSync
+  FaSync 
 } from 'react-icons/fa'
 import { 
   SiTailwindcss,
@@ -31,9 +31,10 @@ import {
   SiVercel,
   SiNetlify,
   SiSpring,
-  SiVisualstudiocode,
   SiPostman
 } from 'react-icons/si'
+// We are importing the official VS Code icon here now
+import { VscVscode } from 'react-icons/vsc'
 
 const Skills = () => {
   const [ref, inView] = useInView({
@@ -82,7 +83,7 @@ const Skills = () => {
       color: 'var(--neon-green)',
       skills: [
         { name: 'Git & GitHub', icon: FaGithub, level: 85, color: '#181717' },
-        { name: 'VS Code', icon: SiVisualstudiocode, level: 90, color: '#007ACC' },
+        { name: 'VS Code', icon: VscVscode, level: 90, color: '#007ACC' }, // <--- Updated to VscVscode
         { name: 'Postman', icon: SiPostman, level: 80, color: '#FF6C37' },
         { name: 'CI/CD', icon: FaInfinity, level: 75, color: '#4285F4' },
         { name: 'Agile', icon: FaSync, level: 80, color: '#0052CC' }
@@ -365,9 +366,7 @@ const Skills = () => {
                 'Compiler Design',
                 'Operating Systems',
                 'Computer Networks',
-                'Computer Architecture',
-                'Web Development',
-                'Software Engineering'
+                'Computer Architecture'
               ].map((course, index) => (
                 <motion.div
                   key={index}
