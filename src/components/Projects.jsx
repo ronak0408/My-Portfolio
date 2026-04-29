@@ -327,7 +327,8 @@ const Projects = () => {
                 {/* Project Image */}
                 <div style={{
                   height: '200px',
-                  background: `linear-gradient(135deg, var(--neon-cyan)20, var(--neon-purple)20), url(${project.image})`,
+                  // Fixed the invalid CSS variables and added quotes around the image URL
+                  backgroundImage: `linear-gradient(135deg, rgba(0, 242, 254, 0.2), rgba(118, 75, 162, 0.2)), url('${project.image}')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   position: 'relative',
