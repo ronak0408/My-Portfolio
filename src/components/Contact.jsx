@@ -566,11 +566,7 @@ const Contact = () => {
               fontSize: '1rem',
               lineHeight: '1.6'
             }}>
-              Thank you for visiting my portfolio! 
-              <br />
-              <span style={{ color: 'var(--neon-cyan)' }}>
-                Built with ❤️ using React + Vite
-              </span>
+              Thank you for visiting my portfolio!
             </p>
           </motion.div>
         </motion.div>
